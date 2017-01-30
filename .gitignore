@@ -1,0 +1,27 @@
+# Templates that ship with Android Studio
+AidlFile/
+AidlFolder/
+AndroidAutoMediaService/
+AndroidAutoMessagingService/
+AndroidManifest/
+AppWidget/
+AssetsFolder/
+BlankFragment/
+BroadcastReceiver/
+ContentProvider/
+CustomView/
+Daydream/
+DisplayNotification/
+IntentService/
+JavaFolder/
+JniFolder/
+LayoutResourceFile/
+ListFragment/
+Notification/
+PlusOneFragment/
+ResFolder/
+ResourcesFolder/
+RsFolder/
+Service/
+ValueResourceFile/
+WatchFaceService/
