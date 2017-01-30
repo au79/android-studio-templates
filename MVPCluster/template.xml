@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="1"
+    name="MVP Class Cluster"
+    description="Creates the concrete Presenter, View, and the Contract that binds them."
+    >
+
+  <parameter id="className"
+             name="Base Activity Name"
+             type="string"
+             constraints="class|unique|nonempty"
+             default="Info"
+             help="A name describing the contents of the Activity, like &quot;WeatherForecast&quot; or &quot;Dashboard&quot;."
+             />
+  
+    <category value="MVP" />
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
