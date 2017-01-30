@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="1"
+    name="MVP Bases"
+    description="Creates the base interfaces and classes used by the MVP pattern"
+    >
+  
+    <category value="MVP" />
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
