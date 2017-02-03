@@ -21,7 +21,7 @@ public class ${className}Presenter implements ${className}Contract.Presenter {
   }
 
   @Override
-    public void subscribe() {
+  public void subscribe() {
     subcription = DaggerApplicationComponent.yadda
       .subscribeOn(Schedulers.computation())
       .observeOn(AndroidSchedulers.mainThread())
@@ -41,11 +41,14 @@ public class ${className}Presenter implements ${className}Contract.Presenter {
           public void onNext(RESULT result) {
             // Update view.
           }
-        });
+      });
   }
 
   @Override
-    public void unsubscribe() {
+  public void unsubscribe() {
+    if (subscription != null && !subscription.isUnsubscribed()) {
+      subscription.unsubscribe();
+    }
   }
 
-}
+                                                          }
